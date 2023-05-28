@@ -1,22 +1,20 @@
-/*{
+*{
     border: solid 1px red;
 }
-*/
+
 body{
     background-color: #F4EED3;
 
 }
-
+/*banniere*/
 header{
     display: flex;
     justify-content: center;
-    background-image: url(images/Frame.png);
-    margin-bottom: 10px;
+    background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("images/Frame.png");
+    margin-bottom: 5px;
 }
 header img{
-    
         height: 20em;
-        border: solid 2px #FF5F45;
         border-radius: 100px 30px 100px 30px;
 }
 /*nav barre*/
@@ -76,3 +74,25 @@ nav .dropdown-content a:hover {
 nav .dropdown:hover .dropdown-content {
     display: block;
 }
+
+/*section*/
+main h1{
+    display: block;
+    text-align: center;
+}
+#card-main{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+#card-main img{
+    width:auto;
+    margin-top: 10px;
+}
+section div{
+    margin: 20px;
+}
+
+
