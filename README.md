@@ -1,3 +1,3 @@
-# cocotte-cuisine.github.io
-Cocotte cuisine web site
-First projet.
+First projet
+
+Restaurant web-site
