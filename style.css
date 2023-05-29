@@ -89,7 +89,9 @@ main h1{
     justify-content: space-evenly;
     padding: auto;
     margin-top: 10px;
+    margin-bottom: 30px;
 }
+
 #card-main img{
     width: 100%;   
     margin: auto;
@@ -100,6 +102,10 @@ section div{
     border-radius: 30px;
     overflow: hidden;
     width: 400px;
+    box-shadow: 2px 1px 2px 2px black;
+}
+section div img:hover{
+    transform: scale(1.1);
 }
 article h2{
     background-color: #E0BC78;
@@ -107,7 +113,7 @@ article h2{
     margin: 5px;
 }
 article p{
-    margin: 5px;
+    margin: 10px;
 }
 
 /*footer*/
