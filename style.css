@@ -1,7 +1,7 @@
-*{
+/**{
     border: solid 1px red;
 }
-
+*/
 body{
     background-color: #F4EED3;
 
@@ -32,6 +32,8 @@ nav li a, .dropbtn {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
     }
 nav li {
     float: left;
@@ -41,15 +43,12 @@ nav .contact{
     float: right;
     margin-left: 100px;
 }
-
 nav li a:hover, .dropdown:hover .dropbtn {
     background-color:#E0BC78;
 }
-
 nav li.dropdown {
     display: inline-block;
 }
-
 nav .dropdown-content {
     display: none;
     position: absolute;
@@ -58,7 +57,6 @@ nav .dropdown-content {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-
 nav .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -66,7 +64,6 @@ nav .dropdown-content a {
     display: block;
     text-align: left;
 }
-
 nav .dropdown-content a:hover {
     background-color: #E0BC78;
 }
@@ -75,24 +72,36 @@ nav .dropdown:hover .dropdown-content {
     display: block;
 }
 
+
+
+
 /*section*/
 main h1{
     display: block;
     text-align: center;
+    text-transform: uppercase;
 }
 #card-main{
     display:flex;
     flex-direction: row;
     text-align: center;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    padding: auto;
 }
 #card-main img{
-    width:auto;
-    margin-top: 10px;
+    width: 100%;   
+    margin: auto;
 }
 section div{
     margin: 20px;
+    border: solid #E0BC78 4px;
+    border-radius: 30px;
+    overflow: hidden;
+    width: 400px;
+}
+article h2{
+    background-color: #E0BC78;
+    text-transform: uppercase;
 }
 
 
