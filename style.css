@@ -67,7 +67,6 @@ nav .dropdown-content a {
 nav .dropdown-content a:hover {
     background-color: #E0BC78;
 }
-
 nav .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -79,7 +78,6 @@ nav .dropdown:hover .dropdown-content {
     height: auto;
     margin: 30px;
 }
-
 form {
     display: flex;
     gap: 10px;
@@ -90,8 +88,7 @@ form {
     box-shadow: 2px 1px 2px 2px black;
     border-radius: 30px;
 
-    }
-
+}
 label {
     font-weight: bold;
 }
