@@ -1,7 +1,7 @@
-*{
+/**{
     border: solid 1px red;
 }
-
+*/
 body{
     background-color: #F4EED3;
 
@@ -11,7 +11,7 @@ header{
     display: flex;
     justify-content: center;
     background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("images/Frame.png");
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 header img{
         height: 20em;
@@ -80,6 +80,7 @@ main h1{
     display: block;
     text-align: center;
     text-transform: uppercase;
+    margin: 10px;
 }
 #card-main{
     display:flex;
@@ -87,6 +88,7 @@ main h1{
     text-align: center;
     justify-content: space-evenly;
     padding: auto;
+    margin-top: 10px;
 }
 #card-main img{
     width: 100%;   
@@ -102,8 +104,11 @@ section div{
 article h2{
     background-color: #E0BC78;
     text-transform: uppercase;
+    margin: 5px;
 }
-
+article p{
+    margin: 5px;
+}
 
 /*footer*/
 footer{
@@ -122,6 +127,7 @@ footer{
 .social-network ul{
     display: inline-flex;
     padding: 0;
+    margin-left: 20px;
 
 }
 .social-network li{
@@ -139,11 +145,13 @@ footer{
 }
 .contact-acceuil{
     display: flex;
-    margin-left: 50px;
+    margin-left: 200px;
 }
 .contact-acceuil ul{
     margin: 0;
     padding: 0;
     list-style-type: none;
-    
+}
+.contact-acceuil li{
+    margin-top: 5px;
 }
