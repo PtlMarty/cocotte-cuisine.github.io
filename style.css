@@ -1,10 +1,9 @@
 *{
     border: solid 1px red;
 }
-*/
+
 body{
-    background-color: #F4EED3;
-}
+background-color: #ffff;}
 main{
     background-color: #F4EED3;
 }
@@ -12,25 +11,29 @@ main{
 header{
     display: flex;
     justify-content: center;
-    background: linear-gradient(rgba(255,255,255,.10), rgba(255,255,255,.5)), url("images/Frame.png");
-    margin-bottom: 2px;
-    background-color: #F4EED3;
+    margin-bottom: 0 0 2px 0;
 }
-header img{
-        height: 20em;
-        border-radius: 100px 30px 100px 30px;
+
+.banniere{
+    background-position: absolute;
+        position: absolute;
+        width: auto;
+}
+.logo{
+    position: relative;
 }
 /*nav barre*/
 nav ul {
+    display: flex;
     list-style-type: none;
-    margin: 0;
+    margin-top: 2px;
     padding: 0;
     overflow: hidden;
-    background-color:  #DBCCB1;
+    margin-bottom: 2px;
   }
 nav li a, .dropbtn {
-    display: inline-block;
-    justify-content: center;
+    display: flex;
+    justify-content: flex-start;
     color: black;
     text-align: center;
     padding: 14px 16px;
@@ -40,11 +43,8 @@ nav li a, .dropbtn {
     }
 nav li {
     float: left;
-    margin-right: 100px;
-}
-nav .contact{
-    float: right;
-    margin-left: 100px;
+    justify-content: space-between;
+    margin-right: 50px;
 }
 nav li a:hover, .dropdown:hover .dropbtn {
     background-color:#B3D8B9;
@@ -126,7 +126,8 @@ main h1{
     display: block;
     text-align: center;
     text-transform: uppercase;
-    margin: 10px;
+    margin: 0px;
+    background-image: url(/images/Frame.png);
 }
 #card-main{
     display:flex;
@@ -141,10 +142,8 @@ main h1{
     display: flex;
     flex-direction: column;
     margin: 20px;
-    border: solid #E0BC78 4px;
     border-radius: 30px;
     overflow: hidden;
-    box-shadow: 2px 1px 2px 2px black;
     width: 500px;
 }
 .card p{
@@ -182,19 +181,25 @@ section div img:hover{
     transform: scale(1.1);
 }
 article h2{
-    background-color: #E0BC78;
+    background-color: #DBCCB1;
     text-transform: uppercase;
     margin: 5px ;
 }
 .separate{
-    border-top: 3px dotted #797575;
+    background-image: url(/images/Frame.png);
+    width: 100%;
+    height: 30px;
     margin: 2px;
+    background-repeat: repeat-x;
+    
 }
 
 /*footer*/
 footer{
+    background: linear-gradient(#f4eed300,#f4eed36c) , url(/images/Frame.png);
+
     display: flex;
-    background-color: #B3D8B9;
+    background-color:#F4EED3;
     height: auto;
     width: auto;
     flex-direction: row;
@@ -206,6 +211,7 @@ footer{
     flex-direction: row;
     width: 400px;
     justify-content: center;
+    opacity: 1;
 }
 .social-network ul{
     display: flex;
@@ -214,6 +220,7 @@ footer{
     justify-content: center;
     align-items: center;
     width: 100%;
+    opacity: 1;
 
 }
 .social-network li{
@@ -227,6 +234,7 @@ footer{
 .social-network img{
     width: 100%;
     align-items: center;
+    opacity: 1;
 }
 .social-network a{
     display: flex;
@@ -236,6 +244,9 @@ footer{
 .contact-acceuil{
     display: flex;
     margin-left: 200px;
+    text-transform: uppercase;
+    font-weight: bold;
+
 }
 .contact-acceuil ul{
     margin: 0;
