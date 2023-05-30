@@ -1,16 +1,20 @@
-/*{
+*{
     border: solid 1px red;
 }
 */
 body{
     background-color: #F4EED3;
 }
+main{
+    background-color: #F4EED3;
+}
 /*banniere*/
 header{
     display: flex;
     justify-content: center;
-    background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("images/Frame.png");
+    background: linear-gradient(rgba(255,255,255,.10), rgba(255,255,255,.5)), url("images/Frame.png");
     margin-bottom: 2px;
+    background-color: #F4EED3;
 }
 header img{
         height: 20em;
@@ -75,7 +79,6 @@ nav .dropdown:hover .dropdown-content {
     justify-content: center;
     align-items: center;
     height: auto;
-    margin: 30px;
     background-color: #F4EED3;
 }
 form {
@@ -87,6 +90,7 @@ form {
     flex-direction: column;
     box-shadow: 2px 1px 2px 2px black;
     border-radius: 30px;
+    margin: 10px;
 
 }
 label {
@@ -143,6 +147,10 @@ main h1{
     box-shadow: 2px 1px 2px 2px black;
     width: 500px;
 }
+.card p{
+    margin: 10px;
+    width: auto;
+}
 .article{
     display: flex;
 }
@@ -162,6 +170,7 @@ aside{
     text-align: center;
     font-size: large;
     
+    
 }
 
 .article img{
@@ -175,7 +184,7 @@ section div img:hover{
 article h2{
     background-color: #E0BC78;
     text-transform: uppercase;
-    margin: 5px;
+    margin: 5px ;
 }
 .separate{
     border-top: 3px dotted #797575;
