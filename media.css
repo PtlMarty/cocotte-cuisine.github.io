@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Sacramento");
+html {
+  font-size: 14.5px;
+}
+/*{
+    border: solid 2px black;
+}*/
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.45em;
+  background-color: #f0f0f0;
+  color: #404646;
+}
+.card__image {
+  height: 100%;
+  max-height: 100%;
+  width: 100%;
+  display: flex;
+}
+.card__image img {
+  height: 400px;
+  min-height: 100%;
+  max-height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card__side-by-side--m {
+ width: auto;
+ height: 400px;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.card__content {
+  padding: 1.6rem;
+}
+.card__button {
+  margin: 1.6rem 0;
+  text-align: center;
+  padding: 0.8rem 1.6rem;
+  background: none;
+  border: 0.5px solid #777;
+  border-radius: 2px;
+}
+.card__button:hover {
+  border-color: #d099a0;
+}
+
+
+.padding-large--l {
+  padding: 1.6rem;
+}
+
+
+
+@media (max-width: 413px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+  }
+
+  .card {
+    min-height: 12.8rem;
+  }
+}
+@media (min-width: 627px) {
+  .grid-container {
+    grid-gap: 1.6rem;
+  }
+
+  .card__side-by-side--m {
+    flex-flow: row nowrap;
+  }
+  .card__side-by-side--m img {
+    min-height: 100%;
+  }
+  .card--featured {
+    grid-row: auto/span 2;
+    grid-column: 1/-1;
+  }
+}
+@media (min-width: 836px) {
+  .padding-large--l {
+    padding: 3.2rem;
+  }
+}
