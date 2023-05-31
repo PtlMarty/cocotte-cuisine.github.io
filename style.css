@@ -76,7 +76,7 @@ nav .dropdown:hover .dropdown-content {
     justify-content: center;
     align-items: center;
     height: auto;
-    background-color: #F4EED3;
+    background-color: #ffffff;
 }
 form {
     display: flex;
@@ -95,10 +95,10 @@ label {
 }
 
 input[type="text"],input[type="email"],textarea {
-  width: 80%%;
+  width: 80%;
   padding: 8px;
   border-radius: 4px;
-  border: 1px solid #ccc;
+  border: 2px solid #000000;
 }
 
 input[type="submit"] {
@@ -240,9 +240,11 @@ footer{
 }
 .contact-acceuil{
     display: flex;
+    position: relative;
     margin-left: 200px;
     text-transform: uppercase;
     font-weight: bold;
+    left: 30%;
 
 }
 .contact-acceuil ul{
@@ -252,4 +254,6 @@ footer{
 }
 .contact-acceuil li{
     margin-top: 5px;
+    position: relative;
+    
 }
