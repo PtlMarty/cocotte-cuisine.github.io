@@ -28,12 +28,13 @@ nav ul {
     list-style-type: none;
     margin-top: 2px;
     padding: 0;
-    overflow: hidden;
     margin-bottom: 2px;
-  }
+    width: 100%;
+    justify-content: space-evenly;
+}
 nav li a, .dropbtn {
-    display: flex;
-    justify-content: flex-start;
+    display: block;
+    justify-content: space-between;
     color: black;
     text-align: center;
     padding: 14px 16px;
@@ -41,11 +42,7 @@ nav li a, .dropbtn {
     text-transform: uppercase;
     font-weight: bold;
     }
-nav li {
-    float: left;
-    justify-content: space-between;
-    margin-right: 50px;
-}
+
 nav li a:hover, .dropdown:hover .dropbtn {
     background-color:#B3D8B9;
 }
@@ -196,7 +193,7 @@ article h2{
 
 /*footer*/
 footer{
-    background: linear-gradient(#f4eed300,#f4eed36c) , url(/images/Frame.png);
+    background: linear-gradient(#f4eed370,#f4eed373) , url(/images/Frame.png);
 
     display: flex;
     background-color:#F4EED3;
