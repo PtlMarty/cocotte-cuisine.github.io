@@ -32,6 +32,7 @@ body {
   flex-flow: column nowrap;
   margin: 10px;
   overflow: hidden;
+  border: solid 1px black;
 }
 
 .card__content {
