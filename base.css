@@ -1,3 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Sacramento");
+html {
+  font-size: 16.5px;
+}
+/*{
+    border: solid 2px black;
+}*/
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.45em;
+  background-color: white;
+  color: #000000;
+}
+
 /*banniere*/
 header{
     display: flex;
@@ -23,6 +37,8 @@ nav ul {
     margin-bottom: 2px;
     width: 100%;
     justify-content: space-evenly;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;;
 }
 nav li a, .dropbtn {
     display: block;
@@ -44,7 +60,7 @@ nav li.dropdown {
 nav .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #DBCCB1;
+    background-color: white;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
