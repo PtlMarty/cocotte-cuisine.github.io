@@ -21,7 +21,6 @@ html {
   width: 90%;
   -o-object-fit: cover;
   object-fit: cover;
-  border-radius: 40px;
   justify-content: center;
 }
 
@@ -51,7 +50,6 @@ html {
   display: flex;
   justify-content: center;
   width: 90%;
-  margin: 10px;
   align-content: center;
 }
 
@@ -102,16 +100,15 @@ html {
     flex-direction: column;
     margin: 10px 0;
   }
-
-  .card__content p {
-    width: 90vw;
+  
+  .card__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    font-size: 14px;
-    margin: 0;
-    padding: 0;
-    overflow-wrap: break-word;
-  }
-
+    margin-left:auto;
+    margin-right: auto;
+    }
   .card-2 {
     flex-direction: column-reverse;
   }

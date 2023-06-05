@@ -6,7 +6,7 @@ html {
 .wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .card {
@@ -14,6 +14,7 @@ html {
   align-items: center;
   margin: 30px;
   max-width: 100%;
+  width: 30vw;
 }
 
 .container {
@@ -89,9 +90,12 @@ a {
   html {
     font-size: 14px;
   }
-  
+  .wrapper{
+    flex-direction: column;
+  }
   .card {
     margin: 10px;
+    width: 100vw;
   }
   
   .container {
