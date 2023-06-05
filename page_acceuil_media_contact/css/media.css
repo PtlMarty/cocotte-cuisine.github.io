@@ -2,10 +2,11 @@
 
 html {
   font-size: 16.5px;
+  font-family:"poppins", "Open Sans", sans-serif;
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+
   line-height: 1.45em;
   background-color: white;
   color: #000000;
