@@ -178,9 +178,10 @@ footer {
   background: linear-gradient(#f4eed370, #f4eed373), url(/images/Frame.png);
   background-color: #f4eed3;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   padding: 20px;
+  height: auto;
 }
 
 .social-network {
