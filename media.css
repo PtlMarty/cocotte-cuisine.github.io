@@ -28,16 +28,16 @@ body {
 }
 
 .card__side-by-side--m {
-  width: 70vw;
+  width: 100vw;
   height: 400px;
   display: flex;
-  margin: 10px;
+  margin-bottom: 30px;
   overflow: hidden;
 }
 
 .card-2 {
   position: relative;
-  width: 70vw;
+  width: 100vw;
   height: 400px;
   display: flex;
   margin: 10px;
@@ -53,7 +53,6 @@ body {
 .card__button {
   margin: 1.6rem 0;
   text-align: center;
-  background: linear-gradient(#f4eed370, #f4eed373), url(/images/Frame.png);
   border: 0.5px solid #777;
   border-radius: 2px;
   width: auto;
@@ -72,11 +71,11 @@ body {
 }
 
 .card__button:hover {
-  border-color: #d099a0;
+  background-color: #b3d8b9;
 }
 
 .padding-large--l {
-  padding: 1.6rem;
+  padding:1rem;
 }
 
 /* Media queries for mobile responsiveness */
