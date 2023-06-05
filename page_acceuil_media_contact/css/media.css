@@ -101,4 +101,7 @@ body {
   .card__content {
     padding: 1rem;
   }
+  .card-2{
+    flex-direction: column-reverse;
+  }
 }
