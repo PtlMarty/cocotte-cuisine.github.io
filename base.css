@@ -203,8 +203,7 @@ footer {
 }
 
 .social-network img {
-  width: 30 vw;
-  max-width: 30px;
+  width: 5vw;
   height: auto;
 }
 
@@ -247,7 +246,9 @@ footer {
     margin-right: 20px;
     margin-bottom: 10px;
   }
-
+  .social-network img{
+    width: 15vw;
+  }
   .contact-acceuil {
     display: none;
   }
