@@ -1,18 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
- /* Responsive styles */
- @media (max-width: 768px) {
-  .card {
-    margin: 10px;
-  }
-
-  .container {
-    flex-basis: 90%;
-  }
-  .container a{
-      width: 20vw;
-  }
-}
-
 html {
   font-size: 16.5px;
   font-family: "Poppins";
@@ -21,15 +6,14 @@ html {
 .wrapper {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   justify-content: center;
 }
-  
+
 .card {
   display: flex;
-  width: auto;
   align-items: center;
   margin: 30px;
+  max-width: 100%;
 }
 
 .container {
@@ -37,52 +21,88 @@ html {
   flex-direction: column;
   align-items: center;
   margin: 10px;
-  width: 25vw;
+  width: 40vw;
 }
 
 .container h3,
 p,
 a {
-  align-items: center;
-  justify-content: center;
   text-align: center;
   padding: 5px;
 }
 
 .container a {
   display: block;
-  width: 10vw;
+  width: 100%;
+  max-width: 200px;
   border: solid 1px black;
   margin-bottom: 10px;
   color: black;
   font-weight: bold;
   background-color: white;
 }
-.container p{
+
+.container p {
   font-family: "Poppins";
   font-weight: 500;
 }
-.container h3{
+
+.container h3 {
   text-decoration: underline;
   font-size: 25px;
 }
-.card__traiteur{
+
+.card__traiteur {
   background: linear-gradient(#f4eed382, #f4eed382), url(/images/photo-Fanny/Traiteur-1.jpeg)no-repeat center;
-  background-size: 30vw; 
+  background-size: cover;
 }
-.card__btob{
+
+.card__btob {
   background: linear-gradient(#f4eed382, #f4eed382), url(/images/photo-Fanny/btob-1.jpg)no-repeat center;
-  background-size: 30vw; 
+  background-size: cover;
 }
-.card__team_build{
+
+.card__team_build {
   background: linear-gradient(#f4eed382, #f4eed382), url(/images/photo-Fanny/team_build.jpeg)no-repeat center;
-  background-size: 30vw; 
+  background-size: cover;
 }
-.card__cooking_lesson{
+
+.card__cooking_lesson {
   background: linear-gradient(#f4eed382, #f4eed382), url(/images/photo-Fanny/cooking_lesson.jpeg)no-repeat center;
-  background-size: 30vw; 
+  background-size: cover;
 }
-.container a:hover{
-  scale: 110%;
-  transition: 0.20s;
+
+.container a:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  
+  .card {
+    margin: 10px;
+  }
+  
+  .container {
+    width: 90%;
+  }
+  
+  .container a {
+    max-width: 50%;
+  }
+  
+  .container h3 {
+    font-size: 20px;
+  }
+  
+  .card__traiteur,
+  .card__btob,
+  .card__team_build,
+  .card__cooking_lesson {
+    background-size: 100%;
+  }
 }

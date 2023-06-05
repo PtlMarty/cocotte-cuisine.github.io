@@ -235,7 +235,7 @@ footer {
 .contact-acceuil {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   text-transform: uppercase;
   font-weight: bold;
 }
