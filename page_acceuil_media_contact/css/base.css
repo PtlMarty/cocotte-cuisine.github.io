@@ -4,6 +4,8 @@
 html {
   font-size: 16.5px;
   font-family: "Poppins";
+  margin: auto;
+  padding: 0;
 }
 
 @media (max-width: 413px) {
@@ -101,11 +103,6 @@ html {
   }
 }
 
-@media (min-width: 836px) {
-  .padding-large--l {
-    padding: 3.2rem;
-  }
-}
 
 
 body {
@@ -241,12 +238,14 @@ footer {
   justify-content: flex-end;
   text-transform: uppercase;
   font-weight: bold;
+  
 }
 
 .contact-acceuil ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  background: linear-gradient(#ffffffa8, #ffffffa3)
 }
 
 .contact-acceuil li {
