@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+ /* Responsive styles */
+ @media (max-width: 768px) {
+  .card {
+    margin: 10px;
+  }
+
+  .container {
+    flex-basis: 90%;
+  }
+  .container a{
+      width: 20vw;
+  }
+}
+
+html {
+  font-size: 16.5px;
+  font-family: "Poppins";
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+  
+.card {
+  display: flex;
+  width: auto;
+  align-items: center;
+  margin: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  width: 25vw;
+}
+
+.container h3,
+p,
+a {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+}
+
+.container a {
+  display: block;
+  width: 10vw;
+  border: solid 1px black;
+  margin-bottom: 10px;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+}
+.container p{
+  font-family: "Poppins";
+  font-weight: 500;
+}
+.container h3{
+  text-decoration: underline;
+  font-size: 25px;
+}
+.card__traiteur{
+  background: linear-gradient(#f4eed382, #f4eed382), url(/images/photo-Fanny/Traiteur-1.jpeg)no-repeat center;
+  background-size: 30vw; 
+}
+.card__btob{
+  background: linear-gradient(#f4eed382, #f4eed382), url(/images/photo-Fanny/btob-1.jpg)no-repeat center;
+  background-size: 30vw; 
+}
+.card__team_build{
+  background: linear-gradient(#f4eed382, #f4eed382), url(/images/photo-Fanny/team_build.jpeg)no-repeat center;
+  background-size: 30vw; 
+}
+.card__cooking_lesson{
+  background: linear-gradient(#f4eed382, #f4eed382), url(/images/photo-Fanny/cooking_lesson.jpeg)no-repeat center;
+  background-size: 30vw; 
+}
+.container a:hover{
+  scale: 110%;
+  transition: 0.20s;
+}
