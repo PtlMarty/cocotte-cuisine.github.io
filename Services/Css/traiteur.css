@@ -1,0 +1,14 @@
+.article__traiteur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.article__traiteur img{
+    margin: 30px;
+    width: 40vw;   
+}
+.article__traiteur h2{
+    font-weight: 600;
+}
