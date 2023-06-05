@@ -129,6 +129,7 @@ header {
   position: relative;
   max-width: 100%;
   height: auto;
+  width: 50vw;
 }
 
 /*nav barre*/
@@ -231,7 +232,10 @@ footer {
   width: 100%;
   height: 100%;
 }
-
+.social-network img:hover{
+  scale: 110%;
+  transition: 0.3ms;
+}
 .contact-acceuil {
   width: 100%;
   display: flex;

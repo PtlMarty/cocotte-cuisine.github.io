@@ -35,6 +35,7 @@ html {
   display: flex;
   margin-top: 10px;
   overflow: hidden;
+  justify-content: center;
 }
 
 .card__content {
@@ -47,7 +48,11 @@ html {
   max-width: 100%;
 }
 .card__content p{
+  display: flex;
+  justify-content: center;
   width: 90%;
+  margin: 10px;
+  align-content: center;
 }
 
 .card__side-by-side--m .card__content,

@@ -58,23 +58,17 @@ a {
   background: linear-gradient(#f4eed382, #f4eed382), url(/images/photo-Fanny/Traiteur-1.jpeg)no-repeat center;
   background-size: cover;
   border-radius: 20px;
-  border: solid 2px black;
 }
-
 .card__btob {
   background: linear-gradient(#f4eed382, #f4eed382), url(/images/photo-Fanny/btob-1.jpg)no-repeat center;
   background-size: cover;
   border-radius: 20px;
-  border: solid 2px black;
-
-
 }
 
 .card__team_build {
   background: linear-gradient(#f4eed382, #f4eed382), url(/images/photo-Fanny/team_build.jpeg)no-repeat center;
   background-size: cover;
   border-radius: 20px;
-  border: solid 2px black;
 
 }
 
@@ -82,9 +76,6 @@ a {
   background: linear-gradient(#f4eed382, #f4eed382), url(/images/photo-Fanny/cooking_lesson.jpeg)no-repeat center;
   background-size: cover;
   border-radius: 20px;
-  border: solid 2px black;
-
-
 }
 
 .container a:hover {
