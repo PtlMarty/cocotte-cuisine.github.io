@@ -1,15 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Sacramento");
-
 html {
   font-size: 16.5px;
   font-family:"poppins", "Open Sans", sans-serif;
 }
 
 body {
-
   line-height: 1.45em;
-  background-color: white;
-  color: #000000;
 }
 
 .card__image {
@@ -43,20 +38,25 @@ body {
   display: flex;
   margin: 10px;
   overflow: hidden;
-  margin-left: auto;
   justify-content: flex-end;
 }
 
 .card__content {
-  padding: 1.6rem;
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card__button {
+  display: flex;
+  justify-content: center;
   margin: 1.6rem 0;
   text-align: center;
   border: 0.5px solid #777;
   border-radius: 2px;
-  width: auto;
+  width: 20vw;
 }
 
 .card__button a {
