@@ -96,7 +96,8 @@ a {
     flex-direction: column;
   }
   .card {
-    margin: 10px;
+
+    margin: 5px 0 5px 0 ;
     width: 100vw;
   }
   
@@ -110,6 +111,9 @@ a {
   
   .container h3 {
     font-size: 20px;
+  }
+  .container p{
+    font-size: 14px;
   }
   
   .card__traiteur,
