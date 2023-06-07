@@ -134,7 +134,7 @@ header {
   max-width: 100%;
   width: 40vw;
   margin-bottom: auto;
- /* background: linear-gradient(#f4eed358, #f4eed358); en attente de conf*/
+ background: linear-gradient(#f4eed300, #f4eed300);
   align-items: center;
   margin: 0;
   padding: 0;
@@ -247,11 +247,17 @@ footer {
   padding: 20px;
   height: auto;
   margin-top: 10px;
+  justify-content: space-around;
+}
+iframe{
+  display: flex;
+  justify-content: flex-end;
+  justify-self: center;
 }
 
 /*info contact*/
 .contactAccueil {
-  width: 100%;
+  width: auto;
   display: flex;
   justify-content: flex-end;
   text-transform: uppercase;
@@ -260,6 +266,7 @@ footer {
 }
 
 .contactAccueil ul {
+  width: auto;
   margin: 0;
   padding: 0;
   list-style-type: none;
