@@ -2,7 +2,7 @@ html {
   font-size: 16.5px;
   font-family: "Poppins";
 }
-
+/*container content*/
 .wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -56,7 +56,7 @@ a {
   text-decoration: underline;
   font-size: 25px;
 }
-
+/*card*/
 .card__traiteur {
   background: linear-gradient(#f4eed382, #f4eed382), url(/images/photo-Fanny/Traiteur-1.jpeg)no-repeat center;
   background-size: cover;

@@ -60,24 +60,24 @@ html {
     padding: 10px;
   }
 
-  .social-network {
+  .socialNetwork {
     flex-direction: column;
     margin-bottom: 20px;
   }
 
-  .social-network li {
+  .socialNetwork li {
     margin-right: 20px;
     margin-bottom: 10px;
   }
-  .social-network{
+  .socialNetwork{
     width: 100vw;
     justify-content: center;
   }
-  footer .social-network img {
+  footer .socialNetwork img {
     width: 15vw;
   }
 
-  footer .contact-acceuil {
+  footer .contactAccueil {
     display: none;
     font-size: 10px;
   }
@@ -152,7 +152,7 @@ nav li.dropdown {
   display: inline-block;
 }
 
-nav .dropdown-content {
+nav .dropdownContent {
   display: none;
   position: absolute;
   background-color: white;
@@ -161,7 +161,7 @@ nav .dropdown-content {
   z-index: 1;
 }
 
-nav .dropdown-content a {
+nav .dropdownContent a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -169,11 +169,11 @@ nav .dropdown-content a {
   text-align: left;
 }
 
-nav .dropdown-content a:hover {
+nav .dropdownContent a:hover {
   background-color: #b3d8b9;
 }
 
-nav .dropdown:hover .dropdown-content {
+nav .dropdown:hover .dropdownContent {
   display: block;
 }
 
@@ -189,40 +189,40 @@ footer {
   margin-top: 20px;
 }
 
-.social-network {
+.socialNetwork {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
 }
 
-.social-network ul {
+.socialNetwork ul {
   display: flex;
   padding: 0;
   justify-content: center;
   align-items: center;
 }
 
-.social-network li {
+.socialNetwork li {
   list-style-type: none;
   margin-right: 20px;
 }
 
-.social-network img {
+.socialNetwork img {
   width: 5vw;
   height: auto;
 }
 
-.social-network a {
+.socialNetwork a {
   display: flex;
   width: 100%;
   height: 100%;
 }
-.social-network img:hover{
+.socialNetwork img:hover{
   scale: 110%;
   transition: 0.3ms;
 }
-.contact-acceuil {
+.contactAccueil {
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -231,14 +231,14 @@ footer {
   
 }
 
-.contact-acceuil ul {
+.contactAccueil ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
   background: linear-gradient(#ffffffa8, #ffffffa3)
 }
 
-.contact-acceuil li {
+.contactAccueil li {
   margin-top: 5px;
 }
 
