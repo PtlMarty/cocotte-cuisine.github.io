@@ -6,7 +6,9 @@ html {
   font-family: "Poppins";
   margin: auto;
   padding: 0;
+  background-color: antiquewhite;
 }
+
 
 @media (max-width: 413px) {
   .logo {

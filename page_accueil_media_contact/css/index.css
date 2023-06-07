@@ -80,6 +80,8 @@ html {
 
 .card__button:hover {
   background-color: #b3d8b9;
+  scale:110%;
+  transition: 0.3ms;
 }
 
 /* Media queries for mobile responsiveness */
