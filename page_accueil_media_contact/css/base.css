@@ -9,25 +9,21 @@
   font-family: "Gourmet Le French";
   src: url("/font/GourmetLeFrench/GourmetLeFrench.ttf");
 }
-html {
-  font-size: 16.5px;
-  font-family: "Gourmet Le French", "Poppins";
-  margin: auto;
-  padding: 0;
-  background-color: antiquewhite;
-}
-
-
 @media (max-width: 600px) {
   .logo {
     width: 100vw !important;
     margin-bottom: 80px !important;
+    position: absolute;
+    top: 20%;
   }
 
   header {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 40vh !important;
   }
 
   nav ul {
@@ -105,6 +101,15 @@ html {
     font-size: 10px;
   }
 }
+
+html {
+  font-size: 16.5px;
+  font-family: "Gourmet Le French", "Poppins";
+  margin: auto;
+  padding: 0;
+  background-color: antiquewhite;
+}
+
 body {
   font-family: "Gourmet Le French", "Poppins";
   line-height: 1.45em;
@@ -115,19 +120,27 @@ body {
 /* Bannière */
 header {
   display: flex;
-  justify-content: center; /* Centrer horizontalement */
+  justify-content: center; 
   align-items: center;
-  height: 25vh; /* Utiliser la hauteur de la vue */
   position: relative;
+  background: url(/images/photo-Fanny/test2.jpeg) no-repeat ;
+  background-size: 100vw;
+  height:100vh;
 }
+
 .logo {
   display: flex;
   justify-content: center;
   max-width: 100%;
-  width: 50vw;
+  width: 40vw;
   margin-bottom: auto;
+  background: linear-gradient(#f4eed300, #f4eed300);
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
+/* icon SNS*/
 .socialNetwork {
   position: absolute;
   bottom: 0;
@@ -138,21 +151,22 @@ header {
 
 .socialNetwork ul {
   display: flex;
-  padding: 20px;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   background: linear-gradient(#f4eed300, #f4eed300);
+
 }
 
 .socialNetwork li {
   list-style-type: none;
   margin-right: 20px;
   background: linear-gradient(#f4eed300, #f4eed300);
+
 }
 
 .socialNetwork img {
   display: flex;
-  width: 3.5vw;
+  width: 4vw;
   background: linear-gradient(#f4eed300, #f4eed300);
   height: auto;
 }
@@ -160,15 +174,14 @@ header {
 .socialNetwork a {
   display: flex;
   width: 100%;
-  height: 100%;
   background: linear-gradient(#f4eed300, #f4eed300);
+  height: 100%;
 }
 
 .socialNetwork img:hover {
-  scale: 110%;
-  transition: 0.3ms;
+  transform: scale(1.1);
+  transition: 0.3s;
 }
-
 
 /*nav barre*/
 nav ul {
@@ -196,8 +209,8 @@ nav li a,
 
 nav li a:hover,
 .dropdown:hover .dropbtn {
-  transition: 0.3ms;
-  scale: 120%;
+  transition: 0.3s;
+  transform: scale(1.2);
 }
 
 nav li.dropdown {
@@ -220,7 +233,6 @@ nav .dropdownContent a {
   text-align: center;
 }
 
-
 nav .dropdown:hover .dropdownContent {
   display: block;
 }
@@ -234,8 +246,8 @@ footer {
   align-items: center;
   padding: 20px;
   height: auto;
+  margin-top: 10px;
 }
-
 
 /*info contact*/
 .contactAccueil {
@@ -246,6 +258,7 @@ footer {
   font-weight: bold;
   background:  linear-gradient(#f4eed300, #f4eed300);  
 }
+
 .contactAccueil ul {
   margin: 0;
   padding: 0;
@@ -256,6 +269,5 @@ footer {
 .contactAccueil li {
   margin-top: 5px;
   background:  linear-gradient(#f4eed300, #f4eed300);  
-
 }
 
