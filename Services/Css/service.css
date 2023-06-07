@@ -26,14 +26,10 @@ html {
   width: 40vw;
   border-radius: 30%;
   overflow: hidden;
+  text-align: center;
 }
 
-.container h3,
-p,
-a {
-  text-align: center;
-  padding: 5px;
-}
+
 
 .container a {
   display: block;

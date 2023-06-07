@@ -14,20 +14,20 @@ html {
   font-family: "Gourmet Le French", "Poppins";
   margin: auto;
   padding: 0;
-  background-color: wheat;
+  background-color: antiquewhite;
 }
 
 
-@media (max-width: 413px) {
+@media (max-width: 600px) {
   .logo {
-    max-width: 100%;
-    height: auto;
+    width: 100vw !important;
+    margin-bottom: 80px !important;
   }
 
   header {
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
+    flex-direction: column;
   }
 
   nav ul {
@@ -44,7 +44,7 @@ html {
   }
 
   nav li {
-    flex: 0 0 100%;
+    width: auto;
     text-align: center;
   }
 
@@ -71,35 +71,38 @@ html {
   }
 
   .socialNetwork {
+    display: flex;
     flex-direction: column;
+    align-items: center;
     margin-bottom: 20px;
+    width: 100%;
+    justify-content: flex-end;
   }
 
   .socialNetwork li {
+    display: flex;
     margin-right: 20px;
     margin-bottom: 10px;
+    width: 100%;
+    
   }
-  .socialNetwork{
-    width: 100vw;
-    justify-content: center;
+  .socialNetwork ul{
+    margin: 0;
+    padding: 0;
   }
-  footer .socialNetwork img {
+  .socialNetwork a{
     width: 15vw;
   }
-
+  .socialNetwork img{
+  display: flex;
+  width: 10vw !important;
+  background: linear-gradient(#f4eed300, #f4eed300);
+  height: auto;
+  align-content: flex-end;
+}
   footer .contactAccueil {
     display: none;
     font-size: 10px;
-  }
-}
-
-@media (min-width: 627px) {
-  .card__side-by-side--m {
-    flex-flow: row nowrap;
-  }
-
-  .card__side-by-side--m img {
-    min-height: 100%;
   }
 }
 body {
@@ -108,25 +111,64 @@ body {
   background-color: antiquewhite;
   color: #000000;
 }
-/*banniere*/
+
+/* Bannière */
 header {
   display: flex;
-  justify-content: center;
-  margin-bottom: 0 0 2px 0;
-}
-
-.banniere {
-  background-position: absolute;
-  position: absolute;
-  width: auto;
-}
-
-.logo {
+  justify-content: center; /* Centrer horizontalement */
+  align-items: center;
+  height: 25vh; /* Utiliser la hauteur de la vue */
   position: relative;
-  max-width: 100%;
-  height: auto;
-  width: 50vw;
 }
+.logo {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  width: 50vw;
+  margin-bottom: auto;
+}
+
+.socialNetwork {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 10px;
+  background: linear-gradient(#f4eed300, #f4eed300);
+}
+
+.socialNetwork ul {
+  display: flex;
+  padding: 20px;
+  justify-content: flex-end;
+  align-items: center;
+  background: linear-gradient(#f4eed300, #f4eed300);
+}
+
+.socialNetwork li {
+  list-style-type: none;
+  margin-right: 20px;
+  background: linear-gradient(#f4eed300, #f4eed300);
+}
+
+.socialNetwork img {
+  display: flex;
+  width: 3.5vw;
+  background: linear-gradient(#f4eed300, #f4eed300);
+  height: auto;
+}
+
+.socialNetwork a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#f4eed300, #f4eed300);
+}
+
+.socialNetwork img:hover {
+  scale: 110%;
+  transition: 0.3ms;
+}
+
 
 /*nav barre*/
 nav ul {
@@ -194,45 +236,8 @@ footer {
   height: auto;
 }
 
-.socialNetwork {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
-  background:  linear-gradient(#f4eed300, #f4eed300);  
-}
 
-.socialNetwork ul {
-  display: flex;
-  padding: 0;
-  justify-content: center;
-  align-items: center;
-  background:  linear-gradient(#f4eed300, #f4eed300);  
-}
-
-.socialNetwork li {
-  list-style-type: none;
-  margin-right: 20px;
-  background:  linear-gradient(#f4eed300, #f4eed300);  
-}
-
-.socialNetwork img {
-  width: 5vw;
-  background:  linear-gradient(#f4eed300, #f4eed300);  
-  height: auto;
-}
-
-.socialNetwork a {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  background:  linear-gradient(#f4eed300, #f4eed300);  
-
-}
-.socialNetwork img:hover{
-  scale: 110%;
-  transition: 0.3ms;
-}
+/*info contact*/
 .contactAccueil {
   width: 100%;
   display: flex;
