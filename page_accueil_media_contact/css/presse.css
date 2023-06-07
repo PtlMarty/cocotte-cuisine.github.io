@@ -32,6 +32,8 @@ body {
   display: flex;
   margin-bottom: 30px;
   overflow: hidden;
+  padding-top: 20px;
+
 }
 
 .card-2 {
@@ -75,8 +77,8 @@ body {
 }
 
 .card__button:hover {
-  background-color: #b3d8b9;
-}
+  scale:120%;
+  transition: 0.3ms;}
 
 .padding-large--l {
   padding:1rem;

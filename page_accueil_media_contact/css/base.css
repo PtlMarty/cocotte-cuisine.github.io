@@ -64,6 +64,7 @@
 
   footer {
     padding: 10px;
+    flex-direction: column !important;
   }
 
   .socialNetwork {
@@ -97,8 +98,11 @@
   align-content: flex-end;
 }
   footer .contactAccueil {
-    display: none;
-    font-size: 10px;
+    font-size: 14px;
+    justify-content: center;
+  }
+  iframe{
+    justify-content:center ;
   }
 }
 

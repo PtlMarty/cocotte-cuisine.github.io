@@ -39,7 +39,7 @@ html {
   display: flex;
   justify-content: center;
   background-color: antiquewhite;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .card__content {
