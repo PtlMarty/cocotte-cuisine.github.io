@@ -123,7 +123,7 @@ header {
   justify-content: center; 
   align-items: center;
   position: relative;
-  background: url(/images/photo-Fanny/test2.jpeg) no-repeat ;
+  background: url(/images/photo-Fanny/test2.jpeg) no-repeat antiquewhite ;
   background-size: 100vw;
   height:100vh;
 }
@@ -134,7 +134,7 @@ header {
   max-width: 100%;
   width: 40vw;
   margin-bottom: auto;
-  background: linear-gradient(#f4eed300, #f4eed300);
+ /* background: linear-gradient(#f4eed358, #f4eed358); en attente de conf*/
   align-items: center;
   margin: 0;
   padding: 0;
