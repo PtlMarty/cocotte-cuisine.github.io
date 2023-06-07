@@ -123,9 +123,12 @@ header {
   justify-content: center; 
   align-items: center;
   position: relative;
-  background: url(/images/photo-Fanny/test2.jpeg) no-repeat antiquewhite ;
+  background-image: url(/images/photo-Fanny/test2.jpeg); 
   background-size: 100vw;
   height:100vh;
+  width: 100%;
+  background-attachment: fixed;
+
 }
 
 .logo {
