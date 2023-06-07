@@ -3,6 +3,11 @@
 html {
   font-size: 16.5px;
 }
+*{
+  background-color: antiquewhite;
+}
+
+
 
 .card__image {
   height: 100%;
@@ -32,9 +37,9 @@ html {
   width: 100vw;
   height: 400px;
   display: flex;
-  margin-top: 10px;
-  overflow: hidden;
   justify-content: center;
+  background-color: antiquewhite;
+  padding-top: 10px;
 }
 
 .card__content {
@@ -64,6 +69,7 @@ html {
   border: 0.5px solid #777;
   border-radius: 2px;
   width: 20vw;
+  background-color: white;
 }
 
 .card__button a {
@@ -79,8 +85,7 @@ html {
 }
 
 .card__button:hover {
-  background-color: #b3d8b9;
-  scale:110%;
+  scale:120%;
   transition: 0.3ms;
 }
 

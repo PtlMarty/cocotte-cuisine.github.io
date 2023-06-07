@@ -1,12 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Sacramento");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
+@font-face {
+  font-family: "Gourmet Le French";
+  src: url("/font/GourmetLeFrench/GourmetLeFrench.otf");
+}
+@font-face {
+  font-family: "Gourmet Le French";
+  src: url("/font/GourmetLeFrench/GourmetLeFrench.ttf");
+}
 html {
   font-size: 16.5px;
-  font-family: "Poppins";
+  font-family: "Gourmet Le French", "Poppins";
   margin: auto;
   padding: 0;
-  background-color: antiquewhite;
+  background-color: wheat;
 }
 
 
@@ -95,9 +103,9 @@ html {
   }
 }
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Gourmet Le French", "Poppins";
   line-height: 1.45em;
-  background-color: white;
+  background-color: antiquewhite;
   color: #000000;
 }
 /*banniere*/
@@ -124,13 +132,12 @@ header {
 nav ul {
   display: flex;
   list-style-type: none;
-  margin-top: 2px;
   padding: 0;
-  margin-bottom: 2px;
   width: 100%;
   justify-content: space-evenly;
   border-top: solid 1px black;
   border-bottom: solid 1px black;
+  margin: 0;
 }
 
 nav li a,
@@ -147,7 +154,8 @@ nav li a,
 
 nav li a:hover,
 .dropdown:hover .dropbtn {
-  background-color: #b3d8b9;
+  transition: 0.3ms;
+  scale: 120%;
 }
 
 nav li.dropdown {
@@ -157,7 +165,6 @@ nav li.dropdown {
 nav .dropdownContent {
   display: none;
   position: absolute;
-  background-color: white;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -168,12 +175,9 @@ nav .dropdownContent a {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  text-align: left;
+  text-align: center;
 }
 
-nav .dropdownContent a:hover {
-  background-color: #b3d8b9;
-}
 
 nav .dropdown:hover .dropdownContent {
   display: block;
@@ -182,13 +186,12 @@ nav .dropdown:hover .dropdownContent {
 /*footer*/
 footer {
   background: linear-gradient(#f4eed370, #f4eed373), url(/images/Frame.png);
-  background-color: #f4eed3;
+  background-color:antiquewhite;
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 20px;
   height: auto;
-  margin-top: 20px;
 }
 
 .socialNetwork {
@@ -196,6 +199,7 @@ footer {
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
+  background:  linear-gradient(#f4eed300, #f4eed300);  
 }
 
 .socialNetwork ul {
@@ -203,15 +207,18 @@ footer {
   padding: 0;
   justify-content: center;
   align-items: center;
+  background:  linear-gradient(#f4eed300, #f4eed300);  
 }
 
 .socialNetwork li {
   list-style-type: none;
   margin-right: 20px;
+  background:  linear-gradient(#f4eed300, #f4eed300);  
 }
 
 .socialNetwork img {
   width: 5vw;
+  background:  linear-gradient(#f4eed300, #f4eed300);  
   height: auto;
 }
 
@@ -219,6 +226,8 @@ footer {
   display: flex;
   width: 100%;
   height: 100%;
+  background:  linear-gradient(#f4eed300, #f4eed300);  
+
 }
 .socialNetwork img:hover{
   scale: 110%;
@@ -230,17 +239,18 @@ footer {
   justify-content: flex-end;
   text-transform: uppercase;
   font-weight: bold;
-  
+  background:  linear-gradient(#f4eed300, #f4eed300);  
 }
-
 .contactAccueil ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  background: linear-gradient(#ffffffa8, #ffffffa3)
+  background:  linear-gradient(#f4eed300, #f4eed300);  
 }
 
 .contactAccueil li {
   margin-top: 5px;
+  background:  linear-gradient(#f4eed300, #f4eed300);  
+
 }
 

@@ -1,6 +1,6 @@
 html {
   font-size: 16.5px;
-  font-family: "Poppins";
+  font-family: "Gourmet Le French", "Poppins";
 }
 /*container content*/
 .wrapper {
@@ -47,7 +47,7 @@ a {
 }
 
 .container p {
-  font-family: "Poppins";
+  font-family:"Gourmet Le French", "Poppins";
   font-size: 20px;
   font-weight: 500;
 }
