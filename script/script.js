@@ -10,5 +10,6 @@ document.addEventListener('scroll', function() {
     } else {
         header.style.opacity = 0;
     }
+    console.log()
 
 })
